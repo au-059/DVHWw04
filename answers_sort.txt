@@ -1,0 +1,27 @@
+(sort1; sort2; sort3)
+random5000: 0m0.079s; 0m0.026s; 0m0.074s;
+random 10000: 0m0.311s; 0m0.090s; 0m0.183s;
+random 50000: 0m10.969s; 0m1.341s; 0m4.413s;
+
+reversed5000: 0m0.075s; 0m0.033s; 0m0.051s;
+reversed10000: 0m0.245s; 0m0.062s; 0m0.210s;
+reversed50000: 0m9.641s; 0m1.216s; 0m5.492s;
+
+sorted5000: 0m0.037s; 0m0.025s; 0m0.050s;
+sorted10000: 0m0.060s; 0m0.057s; 0m0.204s;
+sorted50000: 0m4.299s; 0m0.927s; 0m3.787s;
+
+//
+sort1 uses: BUBBLE SORT
+
+How do you know?: Sorts already sorted files much faster than the unsorted ones.
+
+//
+sort2 uses: MERGE SORT
+
+How do you know?: Time spent on sorting random and sorted lists are fairly close, and it spends the least amount of time (among sort1, sort2 and sort3) on sorting all files.
+
+//
+sort3 uses: SELECTION SORT
+
+How do you know?: It has the longest time (among sort1, sort2 and sort3) of sorting already sorted files.
